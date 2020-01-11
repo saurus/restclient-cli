@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2018",
+        "outDir": "dist",
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2018", "dom"
+        ],
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "rootDir": "."
+    },
+    "exclude": [
+        "node_modules",
+        ".vscode-test"
+    ]
+}
